@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="ar">
+{<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,19 +40,27 @@
       color: red; /* مختلف عن الاسم */
       margin-bottom: 30px;
     }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
     .links a {
-      display: inline-block;
-      margin: 10px;
-      font-size: 20px;
-      color: #fff;
-      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #fff; /* أبيض */
+      color: #000; /* أسود */
+      font-size: 26px;
+      margin: 0 auto;
       transition: 0.3s;
     }
     .links a:hover {
-      color: red;
-    }
-    .links i {
-      margin-right: 8px;
+      background-color: red;
+      color: #fff;
     }
   </style>
 </head>
@@ -61,16 +69,16 @@
     <div class="name-box">
       <h1>Ashraf Adel Nassief</h1>
     </div>
-    <div class="job-title">IT في كلية JETS</div>
+    <div class="job-title">IT OFFICER AT JETS</div>
     <div class="links">
       <a href="https://www.instagram.com/ashraf_3adel?igsh=MXBjN2U0cmtyOTAxZA==" target="_blank">
-        <i class="fab fa-instagram"></i> Instagram
+        <i class="fab fa-instagram"></i>
       </a>
       <a href="https://www.facebook.com/share/1847b78cA9/" target="_blank">
-        <i class="fab fa-facebook"></i> Facebook
+        <i class="fab fa-facebook"></i>
       </a>
       <a href="https://wa.me/962770323612" target="_blank">
-        <i class="fab fa-whatsapp"></i> WhatsApp
+        <i class="fab fa-whatsapp"></i>
       </a>
     </div>
   </div>
